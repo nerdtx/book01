@@ -1,0 +1,99 @@
+---
+
+## Assignment 2 – Build a Structured Page Using Divs and CSS
+
+In this assignment, you will combine everything from this chapter to create a
+**structured, styled HTML page** that demonstrates both organization and layout
+skills. By completing it, you’ll practice using `<div>` containers, applying CSS
+widths, and experimenting with CSS Grid for page design.
+
+---
+
+### Assignment: A Personal Homepage with Layout
+
+Build a simple personal homepage that includes **at least four major regions**:
+
+* A **header** (page title and subtitle)
+* A **main content area** (short biography or description of yourself)
+* A **sidebar** (list of links, hobbies, or favorite quotes)
+* A **footer** (basic contact info or copyright notice)
+
+---
+
+### Requirements
+
+Your page must meet the following:
+
+1. **HTML Structure**
+
+   * Use at least 4 `<div>` elements to define major regions
+   * Assign each div a meaningful `id` or `class` (e.g. `id="header"`)
+   * Use comments in your HTML to mark each section
+
+2. **CSS Styling**
+
+   * Set widths for your major divs (using either pixels or percentages)
+   * Demonstrate use of at least two different display types (`block`,
+     `inline-block`, or `none`)
+   * Include at least one centered block using `margin: auto`
+   * Apply simple background colors to distinguish sections
+
+3. **CSS Grid**
+
+   * Create a page layout using CSS Grid with at least 2 columns and 2 rows
+   * Place your header at the top, footer at the bottom, and divide main
+     content/ sidebar into columns
+   * Use `grid-template-columns` and `grid-template-rows`
+
+---
+
+### Example (Simplified)
+
+```html
+<div id="page">
+  <div id="header">My Homepage</div>
+  <div id="sidebar">Sidebar links here</div>
+  <div id="content">Main content goes here</div>
+  <div id="footer">Footer info</div>
+</div>
+```
+
+```css
+#page {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+}
+
+#header {
+  grid-column: 1 / 3;
+  background-color: lightblue;
+}
+
+#sidebar {
+  background-color: lightgray;
+}
+
+#content {
+  background-color: white;
+}
+
+#footer {
+  grid-column: 1 / 3;
+  background-color: lightblue;
+}
+```
+
+---
+
+### Goal
+
+When finished, your page should feel **organized and intentional**—not a pile of
+elements stacked on top of each other. The assignment is not about making a
+“pretty” design yet, but about mastering **structure and layout**.
+
+> **Helpful Hint:**
+> Build your HTML first, then apply CSS step by step. Get the structure working
+> before worrying about exact colors or spacing.
+
