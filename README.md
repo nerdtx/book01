@@ -1,4 +1,6 @@
-# book 1 - Foundations of CompSci - Building Software for a Browser
+# book 1
+
+**Foundations of CompSci - Building Software for a Browser**
 
 ```
                     _ _
