@@ -1,0 +1,11 @@
+---
+title: Foundations for CompSci - Book 1
+subtitle: Building Software in a Browser
+author: Jeremy Kelley
+titlepage: true
+titlepage-color: FCFCFC
+titlepage-logo: contents/imgs/nerdtx.png
+logo-width: 90mm
+titlepage-rule-color: D0C9C0
+...
+---
