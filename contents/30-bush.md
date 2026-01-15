@@ -18,7 +18,7 @@ where a person could:
 
 * Store huge amounts of information
 * Link documents to one another
-* Retrieve items using trails of related content
+* Retrieve items using trails of related content by following links
 
 It was based on the idea that knowledge is best explored through
 _association_, not just categories or indexes. Bush believed that people think
