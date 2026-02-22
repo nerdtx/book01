@@ -1,6 +1,6 @@
 # book 1
 
-**Foundations of CompSci - Building Software for a Browser**
+**Foundations for Software Engineering - Building Software for a Browser**
 
 ```
                     _ _
@@ -25,5 +25,4 @@ If buildtools is installed at the same directory level as book01, you can use:
 cd book01
 ../buildtools/bin/mkpdf contents
 ```
-
 
