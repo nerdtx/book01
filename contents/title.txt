@@ -1,5 +1,5 @@
 ---
-title: Foundations for Software Engineering - Book 1
+title: Foundations for Software Engineering\newline Book 1
 subtitle: Building Software in a Browser
 author: Jeremy Kelley
 titlepage: true
