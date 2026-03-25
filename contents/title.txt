@@ -7,4 +7,5 @@ titlepage-color: FCFCFC
 titlepage-logo: imgs/nerdtx.png
 logo-width: 90mm
 titlepage-rule-color: D0C9C0
+footer-left: ""
 ...
