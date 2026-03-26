@@ -15,7 +15,7 @@ historical technical reasons is always an example) or `https://nerdtx.dev`
 | Step | What Happens                                | Example                         |
 | ---- | ------------------------------------------- | ------------------------------- |
 | 1    | You type in a URL in your browser           | `https://example.com`           |
-| 2    | Browser checks your local network or cache  | —                               |
+| 2    | Browser checks your local network or cache  | (none)                          |
 | 3    | DNS lookup occurs                           | `example.com` → `93.184.216.34` |
 | 4    | Request packet is built using HTTP          | Includes method: `GET`          |
 | 5    | Packet travels through routers and networks | Home → ISP → backbone → server  |
@@ -34,7 +34,7 @@ We will recreate these steps individually with certain tools later, such as:
 
 A clean, poster-style diagram showing:
 
-```
+```text
 [Your Laptop]
     ↓
 [Wi-Fi Router]

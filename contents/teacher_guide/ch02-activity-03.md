@@ -61,5 +61,5 @@ Each line shows a router your data passed through:
 
 > **Pendergast’s Helpful Hint:**
 > “If you ever wanted to know what happens between pressing Enter and seeing a
-> web page, this is it—every ‘hop’ is a handshake across the globe!”
+> web page, this is it. Every ‘hop’ is a handshake across the globe!”
 

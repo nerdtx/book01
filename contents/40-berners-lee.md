@@ -4,7 +4,7 @@
 
 ## The Inventor of the World Wide Web
 
-In the early 1990s, the internet existed—but it was difficult to use. There were
+In the early 1990s, the internet existed, but it was difficult to use. There were
 no web pages, no hyperlinks, and no browsers. If you wanted to access
 information on a remote server, you had to know specific commands and protocols.
 
@@ -32,7 +32,7 @@ It explained what the World Wide Web was, how to use it, and even how to create
 your own web page. He also created the first web browser/editor, called
 **WorldWideWeb** (later renamed Nexus).
 
-At the time, this invention wasn’t seen as a major event—but within a few years,
+At the time, this invention wasn’t seen as a major event, but within a few years,
 it transformed global communication.
 
 ## A Commitment to Openness

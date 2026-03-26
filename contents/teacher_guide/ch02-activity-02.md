@@ -86,12 +86,12 @@ show why networking protocols must be reliable and repeatable.
 
 A labeled horizontal flowchart showing:
 
-```
-[Browser (Client)] 
-    → “GET /about.html” 
+```text
+[Browser (Client)]
+    → “GET /about.html”
         →
         [Server]
-        ← “200 OK + HTML page” 
+        ← “200 OK + HTML page”
     ←
 ```
 
