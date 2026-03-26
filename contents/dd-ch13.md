@@ -22,7 +22,7 @@ Your app now has five major structural parts:
 
 These parts work together, but they should not be mixed carelessly.
 
-### 1. State
+### State
 
 The `gameState` object is the center of the app.
 
@@ -48,7 +48,7 @@ That means the app should not rely on:
 
 The state object should be enough to describe the whole game.
 
-### 2. Rendering
+### Rendering
 
 Render functions read from state and update the DOM.
 
@@ -66,7 +66,7 @@ true.
 
 That separation is a major reason the app stays understandable.
 
-### 3. Game Logic
+### Game Logic
 
 Game logic functions define the rules of Battleship.
 
@@ -85,7 +85,7 @@ Examples include:
 These functions operate on data, not on the page. That makes them easier to test
 and easier to reuse.
 
-### 4. Event Handling
+### Event Handling
 
 Event handlers connect user actions to state changes.
 
@@ -106,7 +106,7 @@ A good event handler should usually:
 
 That pattern appears throughout this project.
 
-### 5. Persistence
+### Persistence
 
 Persistence functions allow the app to survive a page reload.
 

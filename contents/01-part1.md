@@ -3,8 +3,7 @@
 
 # Part 1 - How Computers ...
 
-In this area of the book, we're going to briefly dive into the way that
-computers function.
+This part covers the way computers function.
 
 We won't spend too much time here, but it will be enough to give you an idea, as
 a journeyman, of the platform upon which you'll be creating and working.

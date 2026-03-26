@@ -58,7 +58,7 @@ It looks tricky but it's pretty straightforward.
 
 Let's plug this in.
 
-```
+```text
 p(A) = 2/3
 p(B) = 1/3
 H = - [(2/3 * log2(2/3)) + (1/3 * log2(1/3))]
@@ -74,7 +74,7 @@ Stick with me.
 
 Now compare that to the string `ABC`.
 
-```
+```text
 p(A) = 1/3
 p(B) = 1/3
 p(C) = 1/3

@@ -43,9 +43,8 @@ His famous essay, *As We May Think*, was published in 1945 and
 inspired generations of scientists and engineers to think beyond traditional
 libraries and printed materials.
 
-> Before computers had screens, some people were already imagining how we’d use
-> them to navigate knowledge. Visionaries like Bush remind us that ideas
-> matter - even when the technology doesn’t exist yet.
+> Bush wrote *As We May Think* in 1945. The first web browser wasn’t built until
+> 1990. That’s a 45-year gap between the idea and the tool.
 
 Another little known fact - at MIT, Bush was the mentor of Claude Shannon. How's
 that for association?

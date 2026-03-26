@@ -14,7 +14,7 @@ space missions at NASA. She and her team wrote the code that controlled the
 Apollo Guidance Computer (AGC), which helped astronauts land safely on the Moon.
 
 At a time when the field of “software engineering” didn’t even exist as a formal
-title, she coined the term herself—insisting that developing reliable software
+title, she coined the term herself, insisting that developing reliable software
 was just as rigorous and demanding as traditional engineering disciplines.
 
 ## Why Is She Important?
