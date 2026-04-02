@@ -27,7 +27,7 @@ compare that number to the number of successful hits.
 Start with a helper function that counts the number of cells occupied by a
 fleet.
 
-```js id="v8m2k4"
+```js
 function getFleetCellCount(fleet) {
   let total = 0;
 
@@ -50,7 +50,7 @@ Because it is generic, you can reuse it anywhere you need to measure a fleet.
 
 Now create the function that checks whether the game should end.
 
-```js id="y4p7n1"
+```js
 function checkForGameEnd() {
   const totalComputerCells = getFleetCellCount(gameState.computerShips);
   const totalPlayerCells = getFleetCellCount(gameState.playerShips);
@@ -100,7 +100,7 @@ on the status.
 
 A cleaner version looks like this:
 
-```js id="q6w3r8"
+```js
 checkForGameEnd();
 
 if (gameState.status === "playerWon") {
@@ -112,7 +112,7 @@ if (gameState.status === "playerWon") {
 
 And in `handleComputerTurn()`, do the same:
 
-```js id="k9t5m2"
+```js
 checkForGameEnd();
 
 if (gameState.status === "computerWon") {
