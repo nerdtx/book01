@@ -37,7 +37,7 @@ process.
 
 Example idea:
 
-```js
+```js id="w1t7m4"
 function createNewGameState(size) {
   return {
     size: size,
@@ -103,7 +103,7 @@ This belongs in persistence and event handling.
 
 Example function:
 
-```js
+```js id="rl2q8p"
 function clearSavedGame() {
   localStorage.removeItem("battleshipGame");
 }

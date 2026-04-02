@@ -25,7 +25,7 @@ The computer needs a way to choose a square that has not already been used.
 Since `gameState.computerShots` stores every computer attack, the easiest
 strategy is to build a list of all untouched cells and choose one at random.
 
-```js
+```js id="c4n8p1"
 function getUnfiredCells(grid) {
   let cells = [];
 
@@ -47,7 +47,7 @@ This function does not change the app. It only returns useful data.
 
 Now create a helper that picks one valid target from the remaining cells.
 
-```js
+```js id="r7m2k5"
 function chooseComputerTarget() {
   let available = getUnfiredCells(gameState.computerShots);
 
@@ -71,7 +71,7 @@ should always return a valid target until the game ends.
 
 Now create the main function for the computer’s turn.
 
-```js
+```js id="w5p9x3"
 function handleComputerTurn() {
   if (gameState.status !== "playing") {
     return;
@@ -139,7 +139,7 @@ Now update the player’s shot handler so the computer acts after the player fir
 
 At the end of `handlePlayerShot()`, after saving and rendering, add a delayed call:
 
-```js
+```js id="f8q4j6"
 if (gameState.status === "playing" && gameState.turn === "computer") {
   setTimeout(handleComputerTurn, 500);
 }
@@ -150,7 +150,7 @@ the result of their shot before the computer responds.
 
 Your updated ending for `handlePlayerShot()` should look like this:
 
-```js
+```js id="k2v7m9"
 checkForGameEnd();
 
 if (gameState.status === "playing") {

@@ -39,7 +39,7 @@ app. A well-designed state object makes persistence much easier.
 
 Create a function to save the current state.
 
-```js
+```js id="4a2pd8"
 function saveGame() {
   localStorage.setItem("battleshipGame", JSON.stringify(gameState));
 }
@@ -64,7 +64,7 @@ the app should call `saveGame()`.
 
 Now create a function that restores the app from saved data.
 
-```js
+```js id="yzx8f3"
 function loadGame() {
   const saved = localStorage.getItem("battleshipGame");
 
@@ -105,7 +105,7 @@ only half the job. The app must also redraw the interface.
 
 That is why `loadGame()` calls:
 
-```js
+```js id="c4g6w1"
 renderApp();
 ```
 
@@ -140,7 +140,7 @@ Sometimes it is useful during testing to remove saved data entirely.
 
 You can remove just the Battleship entry like this:
 
-```js
+```js id="v8q9m2"
 function clearSavedGame() {
   localStorage.removeItem("battleshipGame");
 }
@@ -156,7 +156,7 @@ important.
 
 Your `initApp()` function should already look something like this:
 
-```js
+```js id="3p1rj7"
 function initApp() {
   document.getElementById("newGameBtn").addEventListener("click", newGame);
   loadGame();
