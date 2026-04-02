@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#app {
+  display: grid;
+  gap: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+#statusPanel,
+#scorePanel,
+#controls {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background-color: #f8f8f8;
+}
+
+#scorePanel {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#boardsPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.boardArea {
+  display: grid;
+  gap: 10px;
+}
+
+#playerBoard,
+#computerBoard {
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-template-rows: repeat(6, 50px);
+  gap: 5px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333333;
+  background-color: #dfefff;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.cell.hit {
+  background-color: #ff9999;
+}
+
+.cell.miss {
+  background-color: #cccccc;
+}
+
+.cell.ship {
+  background-color: #99ccff;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
